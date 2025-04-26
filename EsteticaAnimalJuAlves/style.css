@@ -1,0 +1,465 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.horario {
+  background-color: #484848;
+  display: flex;
+  justify-content: center;
+}
+
+.horario p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+.headerbuttons {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #E9E9E9;
+}
+
+.leftsideHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.middleHeader {
+  display: flex;
+  flex: 0.5;
+  justify-content: space-between;
+}
+
+.middleHeader p{
+  cursor: pointer;
+}
+
+.rightsideHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.agendar {
+  background-color: #3AC258;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+
+
+.session1 {
+  background-color: #CF75BB;
+}
+
+.container1 {
+  display: flex;
+}
+
+.leftsideContainer1 {
+  flex: 0.5;
+  font-family: "Poppins", sans-serif;
+  padding-left: 150px;
+}
+
+.titledesc1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 62px;
+  padding-right: 20px;
+  color: white;
+  padding-left: 100px;
+}
+
+.tittle1 p{
+  font-size: 49px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.desc1 {
+  padding-top: 14px;
+  font-size: 18px;
+  padding-bottom: 28px;
+}
+
+.rightsideContainer1 {
+  flex: 0.5;
+}
+
+.dogsIMG {
+  height: 100%;
+  display: flex;
+  padding-top: 28px;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+
+
+.session2 {
+  background-color: white;
+}
+
+.tittle2 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tittle2 h1 {
+  font-size: 38px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+}
+
+.tittle2 h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.qualidades {
+  display: flex;
+  padding: 60px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cardQualidades {
+  font-family: "Poppins", sans-serif;
+  color: #545454;
+  background-color: #D9D9D9;
+  width: 300px;
+  height: 350px;
+  padding: 30px;
+  padding-top: 0px;
+  border-radius: 10px;
+}
+.CardTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.cardQualidades img {
+  height: 120px;
+  width: 120px;
+}
+
+.cardQualidades h1 {
+  color: #CF75BB;
+  font-size: 20px;
+}
+
+.cardDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.cardDesc p{
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+}
+
+
+
+
+.session3 {
+  background-color: #CF75BB;
+}
+
+.tittle3 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.tittle3 h1 {
+  font-size: 45px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+}
+
+.tittle3 h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.bottomS3 {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 60px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.feedbacks {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.cards {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.seta img {
+  height: 55px;
+  width: 55px;
+
+}
+
+.seta {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.cardFeedbacks {
+  font-family: "Poppins", sans-serif;
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  padding-top: 0px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cardFeedbacks img {
+  height: 120px;
+  width: 120px;
+}
+
+.cardFeedbacks h1 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.nomeCliente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arroba {
+  font-size: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.descCliente {
+  display: flex;
+  align-items: center;
+}
+
+.icone {
+  display: flex;
+}
+
+.cardDescFeedback {
+  background-color: #EEEEEE;
+  margin-bottom: 20px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.cardDescFeedback p {
+  display: flex;
+  margin: 20px;
+}
+
+.session4 {
+  background-color: #FFFFFF;
+}
+
+.tittle4 {
+  display: flex;
+  justify-content: center;
+  color: #393939;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.bottom4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.suporte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.leftside4 {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rightside4 {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nomeClienteSuporte {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+   width: 450px;
+}
+
+.telefoneCliente {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 450px;
+}
+
+.mensagemCliente {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 450px;
+}
+
+
+label {
+  font-size: 24px;
+  color: #445566;
+  font-family: "Roboto", sans-serif;
+}
+
+
+input {
+  height: 35px;
+  border-radius: 5px;
+  background-color: #ccc8cd;
+  border: none;
+  font-size: 16px;
+}
+textarea{
+  border-radius: 5px;
+  background-color: #ccc8cd;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.mensagem {
+  height: 150px;
+}
+
+.botaoMensagem {
+  padding: 10px;
+}
+
+.funcionamento {
+  font-family: "Nunito", sans-serif;
+  color: #445566;
+  padding-bottom: 20px;
+}
+
+.funcionamento p {
+  font-size: 14px;
+  padding-left: 6px;
+}
+
+.funcionamento img {
+  height: 15px;
+  width: 15px;
+}
+
+.mapa {
+  display: flex;
+  align-items: center;
+}
+
+.mapa img {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.mapa a {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border: none;
+  background-color: white;
+  color: #445566;
+  font-weight: bold;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.contato h1 {
+  margin: 0px;
+}
+
+.instagram a {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-left: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+footer {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: #7A7A7A;
+  justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 15px;
+}
